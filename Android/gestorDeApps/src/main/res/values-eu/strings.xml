@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_titulo">Login-e</string>
+    <string name="prompt_email">Email-e</string>
+    <string name="buscar_en_play">Buscar en PlayStore-e</string>
+    <string name="desinstalar">Desinstalar-e</string>
+    <string name="ejecutar">Ejecutar-e</string>
+    <string name="borrar">Borrar-e</string>
+    <string name="texto_lista_apps_vacia">No se ha encontrado ninguna app sin instalar-e</string>
+    <string name="app_instalada">Instalada-e</string>
+    <string name="titulo_lista_apps">Apps de-e</string>
+    <string name="apps_instaladas">Instaladas-e</string>
+    <string name="filtro">Filtro-e</string>
+    <string name="texto_acercade">Aplicación creada por Andima Freire-e</string>
+    <string name="acerca_de">Acerca de-e</string>
+    <string name="tema2">Oscuro-e</string>
+    <string name="tema1">Claro-e</string>
+    <string name="preferencia_apariencia">Tema-e</string>
+    <string name="titulo_preferencia_apariencia">Apariencia-e</string>
+    <string name="ajustes">Ajustes-e</string>
+    <string name="menu_eliminar_cuenta">Eliminar Cuenta-e</string>
+    <string name="mensaje_dialog_eliminar_cuenta">Si elimina su cuenta perderá sus apps no instaladas, ¿continuar?-e</string>
+    <string name="mensaje_dialog_cerrar_sesion">Si cierra sesión la app se cerrará, ¿continuar?-e</string>
+    <string name="titulo_notif_registro">Felicidades!-e</string>
+    <string name="texto_notif_registro">Tu cuenta a sido añadida con éxito-e</string>
+    <string name="nombre_canal1">Avisos-e</string>
+    <string name="menu_cerrar_sesion">Cerrar sesión-e</string>
+    <string name="cuenta_creada">La cuenta ha sido creada correctamente!-e</string>
+    <string name="error_field_required">Este campo es obligatorio-e</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta-e</string>
+    <string name="error_invalid_password">La contraseña es demasiado corta-e</string>
+    <string name="error_invalid_email">El e-mail es inválido-e</string>
+    <string name="action_sign_in_short">Entra-e</string>
+    <string name="action_sign_in">Entra o regístrate-e</string>
+    <string name="prompt_password">Password (opcional)-e</string>
+</resources>

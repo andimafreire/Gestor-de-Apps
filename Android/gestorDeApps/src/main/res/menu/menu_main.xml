@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/filtrar"
+        android:layout_width="match_parent"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="@string/filtro"
+        android:visible="false"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/filtroInstaladas"
+                android:checkable="true"
+                android:title="@string/apps_instaladas"
+                android:visible="false" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/eliminarCuenta"
+        android:title="@string/menu_eliminar_cuenta"/>
+    <item
+        android:id="@+id/cerrarSesion"
+        android:title="@string/menu_cerrar_sesion"/>
+    <item
+        android:id="@+id/ajustes"
+        android:title="@string/ajustes" />
+    <item
+        android:id="@+id/acercaDe"
+        android:title="@string/acerca_de" />
+</menu>

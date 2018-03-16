@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name" translatable="false">Gestor de Apps</string>
+    <!-- Strings relacionados con el login -->
+    <string name="login_titulo">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (opcional)</string>
+    <string name="action_sign_in">Entra o regístrate</string>
+    <string name="action_sign_in_short">Entra</string>
+    <string name="error_invalid_email">El e-mail es inválido</string>
+    <string name="error_invalid_password">La contraseña es demasiado corta</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="error_field_required">Este campo es obligatorio</string>
+    <string name="cuenta_creada">La cuenta ha sido creada correctamente!</string>
+    <string name="menu_cerrar_sesion">Cerrar sesión</string>
+    <string name="nombre_canal1">Avisos</string>
+    <string name="texto_notif_registro">Tu cuenta a sido añadida con éxito</string>
+    <string name="titulo_notif_registro">Felicidades!</string>
+    <string name="mensaje_dialog_cerrar_sesion">Si cierra sesión la app se cerrará, ¿continuar?</string>
+    <string name="mensaje_dialog_eliminar_cuenta">Si elimina su cuenta perderá sus apps no instaladas, ¿continuar?</string>
+    <string name="menu_eliminar_cuenta">Eliminar Cuenta</string>
+    <!-- Strings relacionados con los ajustes -->
+    <string name="ajustes">Ajustes</string>
+    <string name="titulo_preferencia_apariencia">Apariencia</string>
+    <string name="preferencia_apariencia">Tema</string>
+    <string name="tema1">Claro</string>
+    <string name="tema2">Oscuro</string>
+    <!-- Strings relacionados con Acerca de -->
+    <string name="acerca_de">Acerca de</string>
+    <string name="texto_acercade">Aplicación creada por Andima Freire</string>
+    <!-- Strings relacionados con el filtro de apps-->
+    <string name="filtro">Filtro</string>
+    <string name="apps_instaladas">Instaladas</string>
+    <!-- Strings relacionados con la lista de apps-->
+    <string name="titulo_lista_apps">Apps de</string>
+    <string name="app_instalada">Instalada</string>
+    <string name="texto_lista_apps_vacia">No se ha encontrado ninguna app sin instalar</string>
+    <!-- Strings relacionados con la info de app-->
+    <string name="borrar">Borrar</string>
+    <string name="ejecutar">Ejecutar</string>
+    <string name="desinstalar">Desinstalar</string>
+    <string name="buscar_en_play">Buscar en PlayStore</string>
+</resources>
