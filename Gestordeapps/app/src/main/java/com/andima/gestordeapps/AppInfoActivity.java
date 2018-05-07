@@ -6,6 +6,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -44,14 +45,14 @@ public class AppInfoActivity extends AbstractActivity {
         //si la app está instalada se carga el icono y se visibilizan los botones
         if (app.isInstalada()){
             ((ImageView) this.findViewById(R.id.iconoInfo)).setImageDrawable(app.getIcono());
-            this.findViewById(R.id.ejecutarInfo).setVisibility(View.VISIBLE);
-            this.findViewById(R.id.desinstalarInfo).setVisibility(View.VISIBLE);
-            this.findViewById(R.id.ajustesInfo).setVisibility(View.VISIBLE);
+            ((Button) this.findViewById(R.id.ejecutarInfo)).setVisibility(View.VISIBLE);
+            ((Button) this.findViewById(R.id.desinstalarInfo)).setVisibility(View.VISIBLE);
+            ((Button) this.findViewById(R.id.ajustesInfo)).setVisibility(View.VISIBLE);
         }
         /*si la app es esta app se oculta el botón ejecutar para impedir cargar la
         * pila con mas actividades de esta app*/
         if (app.getPaquete().equals(getPackageName()))
-             this.findViewById(R.id.ejecutarInfo).setVisibility(View.INVISIBLE);
+            ((Button) this.findViewById(R.id.ejecutarInfo)).setVisibility(View.INVISIBLE);
         ((TextView) this.findViewById(R.id.nombreInfo)).setText(app.getNombre());
         ((TextView) this.findViewById(R.id.paqueteInfo)).setText(app.getPaquete());
     }

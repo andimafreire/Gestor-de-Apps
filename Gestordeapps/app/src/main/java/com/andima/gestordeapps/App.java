@@ -3,7 +3,6 @@ package com.andima.gestordeapps;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.NonNull;
 
 /**
  * Created by Andima on 14/03/2018.
@@ -44,7 +43,7 @@ public class App implements Comparable<App>{
 
     @Override
     //compareTo de la interfaz Comparable, utilizado para ordenar las apps por nombre
-    public int compareTo(@NonNull App pApp) {
+    public int compareTo(App pApp) {
         return getNombre().compareToIgnoreCase(pApp.getNombre());
     }
 

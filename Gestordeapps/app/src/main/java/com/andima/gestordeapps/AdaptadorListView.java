@@ -42,12 +42,12 @@ public class AdaptadorListView extends BaseAdapter {
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
         view = inflater.inflate(R.layout.fila_lista_apps,null);
-        TextView nombre= view.findViewById(R.id.nombre);
-        ImageView icono= view.findViewById(R.id.icono);
+        TextView nombre= (TextView) view.findViewById(R.id.nombre);
+        ImageView icono=(ImageView) view.findViewById(R.id.icono);
         if(apps.get(i).getIcono()!=null) icono.setImageDrawable(apps.get(i).getIcono());
         nombre.setText(apps.get(i).getNombre());
         if (apps.get(i).isInstalada()){
-            TextView instalada= view.findViewById(R.id.instalada);
+            TextView instalada= (TextView) view.findViewById(R.id.instalada);
             instalada.setText(R.string.app_instalada);
         }
         return view;
