@@ -28,8 +28,6 @@ public class ListaAppsActivity extends AbstractActivity{
 
     private List<App> apps;
     private ListView listaApps;
-    private AdaptadorListView eladap;
-    private CargarAppsAsyncTask tarea;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -78,7 +76,7 @@ public class ListaAppsActivity extends AbstractActivity{
             recreate();
         }
         //se recarga la lista de apps por si hubiera cambios.
-        tarea = new CargarAppsAsyncTask(this);
+        CargarAppsAsyncTask tarea = new CargarAppsAsyncTask(this);
         tarea.setIncluirInstaladas(PreferenceManager.getDefaultSharedPreferences(this)
                 .getBoolean("INCLUIR_INSTALADAS",false));
         tarea.execute();
@@ -99,7 +97,7 @@ public class ListaAppsActivity extends AbstractActivity{
     }
 
     private void cargarListView(){
-        eladap = new AdaptadorListView(this, apps);
+        AdaptadorListView eladap = new AdaptadorListView(this, apps);
         listaApps.setAdapter(eladap);
     }
 
